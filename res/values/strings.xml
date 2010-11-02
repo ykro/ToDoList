@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+	<string name="strBtnAdd">Agregar</string>
+	<string name="strTxtFormHeader">Agrega una tarea nueva</string>	
+	<string name="taskAddedToast">Tarea \"%s\" agregada.</string>
+	<string name="taskModifiedToast">Prioridad de tarea \"%s\" modificada.</string>
+	<string name="taskRemovedToast">Tarea \"%s\" eliminada.</string>
+	<string name="mnuDelete">Eliminar</string>	
+</resources>

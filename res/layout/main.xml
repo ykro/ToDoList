@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="2dip">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/strTxtFormHeader"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:id="@+id/txtHeader" />
+	<View android:layout_height="2dip" android:background="@android:color/white" 
+		android:layout_width="fill_parent" android:layout_below="@id/txtHeader"
+		android:id="@+id/LineView" android:layout_marginTop="2dip" android:layout_marginBottom="2dip"/>
+	<Button android:layout_width="wrap_content" android:text="@string/strBtnAdd"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/btnAdd"
+		android:layout_below="@id/LineView"
+		android:layout_alignParentRight="true">
+	</Button>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtTask"
+		android:layout_below="@id/LineView"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/btnAdd">
+	</EditText>
+</RelativeLayout>

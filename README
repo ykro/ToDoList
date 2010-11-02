@@ -1,0 +1,2 @@
+To Do List
+A simple "remember the milk" application I've made for an Android Workshop, it doesn't use persistent storage (it only uses a static LinkedList). When developing a real application, using a non-final static member in activity classes it's a bad idea, instead you should use application classes.
